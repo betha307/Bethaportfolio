@@ -59,12 +59,12 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | CodeWithTanveer";
-            $("#favicon").attr("href", "assets/images/favicon.jpg");
+            document.title = "Portfolio | BuildWithBethy";
+            $("#favicon").attr("href", "assets/images/img_avatar2.png");
         }
         else {
-            document.title = "Portfolio | Tanveer Ahmad";
-            $("#favicon").attr("href", "assets/images/favicon.jpg");
+            document.title = "Portfolio | Bethelhem Yibabe";
+            $("#favicon").attr("href", "assets/images/img_avatar2.png");
         }
     });
 
